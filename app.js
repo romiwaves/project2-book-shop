@@ -8,6 +8,7 @@ app.listen(process.env.PORT);
 
 const userRouter = require('./routes/users');
 const bookRouter = require('./routes/books');
+const categoryRouter = require('./routes/category');
 const likeRouter = require('./routes/likes');
 const cartRouter = require('./routes/cart');
 const orderRouter = require('./routes/orders');
